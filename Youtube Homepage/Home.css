@@ -1,0 +1,277 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    width: 100%;
+    padding: 12px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.YTlogo {
+    display: flex;
+    align-items: center;
+}
+
+.YTlogo i {
+    color: black;
+    font-size: 30px;
+}
+
+.logo-name {
+    display: flex;
+    margin-left: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-name i {
+    font-size: 25px;
+    color: red;
+    margin-right: 5px;
+}
+
+.logo-name sup {
+    font-size: 12px;
+    color: rgb(174, 159, 159);
+}
+
+.logo-name h1 {
+    font-family: Vernon Adams, Kalapi Gajjar, Cyreal;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar div {
+    margin-inline: 5px;
+    font-size: 20px;
+}
+
+.text-space input {
+    width: 650px;
+    height: 40px;
+    border-radius: 20px;
+    position: relative;
+    padding-inline: 15px;
+    font-size: 18px;
+    border-color: rgb(81, 70, 70);
+}
+
+.text-space i {
+    position: absolute;
+    left: 1000px;
+    top: 24px;
+    color: black;
+}
+
+.search-btn button {
+    width: 70px;
+    position: absolute;
+    left: 1028px;
+    top: 14px;
+    border-radius: 0 20px 20px 0;
+    padding: 8.5px;
+    border: none;
+    border-left: 1px solid black;
+    background-color: none;
+}
+
+.search-btn button i {
+    font-size: 15px;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.account i {
+    font-size: 20px;
+    color: black;
+    padding-inline: 15px;
+}
+
+.account img {
+    width: 35px;
+    border-radius: 50%;
+}
+
+.sidebar {
+    position: fixed;
+    top: 4rem;
+    width: 20%;
+    height: 100%;
+    overflow: auto;
+}
+
+
+.main-body {
+    width: 100%;
+    display: flex;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 30px;
+}
+
+.menu-list {
+    padding: 0px 15px 0;
+    border-bottom: 2px solid rgb(225, 220, 220);
+}
+
+
+.menu-list ul {
+    list-style-type: none;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.menu-list-1,
+.menu-list-2 {
+    border-bottom: 1.5px solid rgb(206, 200, 200);
+}
+
+.menu-list li {
+    padding-block: 11px;
+    padding-inline: 8px;
+    cursor: pointer;
+    height: 45px;
+    flex-direction: row;
+    display: flex;
+}
+
+.menu-list li:hover {
+    background-color: rgb(235, 227, 227);
+    border-radius: 10px;
+}
+
+.menu-list i {
+    margin-right: 20px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+}
+
+
+.menu-list-subs {
+    border-bottom: 2px solid rgb(225, 220, 220);
+}
+
+.menu-list-subs h4 {
+    margin: 5px 0 0 5px;
+    font-size: 18px;
+}
+
+.menu-list-subs li:hover {
+    background-color: rgb(235, 227, 227);
+    border-radius: 10px;
+}
+
+.menu-list-subs img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.img-text {
+    width: 100%;
+    padding-inline: 10px;
+    padding-block: 5px;
+    display: flex;
+    align-items: center;
+    margin: 5px 0 10px;
+}
+
+.img-text p {
+    font-size: 17px;
+    margin-left: 18px;
+    font-size: 16px;
+}
+
+
+.img-text:hover {
+    background-color: rgb(235, 227, 227);
+    border-radius: 10px;
+}
+
+.content {
+    width: calc(100% - 20%);
+    padding-left: 20px;
+    position: relative;
+    left: 20%;
+}
+
+/*Interest*/
+.interests {
+    width: 100%;
+}
+
+.interests button {
+    padding-block: 8px;
+    padding-inline: 15px;
+    margin: 10px 10px 40px;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(235, 227, 227);
+}
+
+#active {
+    background-color: black;
+    color: #fff;
+}
+
+.interests button:hover {
+    background-color: rgb(213, 205, 205);
+}
+
+.inner-content {
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+
+.diff-contents {
+    width: 30%;
+    margin-inline: 15px;
+}
+
+.video img {
+    width: 100%;
+    height: 230px;
+    border-radius: 10px;
+}
+
+
+.video-title {
+    display: flex;
+}
+
+.profile-pic {
+    width: 20%;
+}
+
+.profile-pic img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.title,
+.channel-name,
+.views {
+    padding-left: 10px;
+}
